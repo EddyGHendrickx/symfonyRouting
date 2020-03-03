@@ -1,3 +1,22 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+#config/routes.yaml
+
+index:
+  path: /
+  controller: App\Controller\LearningController::showMyName
+
+showMyName:
+  path: /showMyName
+  controller: App\Controller\LearningController::showMyName
+
+changeMyName:
+  path: /changeMyName
+  controller: App\Controller\LearningController::changeMyName
+
+
+about-me:
+  path: /about-me
+  controller: App\Controller\LearningController::aboutMe
